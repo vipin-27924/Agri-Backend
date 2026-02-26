@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from app.routes import auth
+from routes import market
+app.include_router(market.router, prefix="/markets", tags=["Markets"])
+from routes import auth 
 
 
 app = FastAPI()
