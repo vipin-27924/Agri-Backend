@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+motor  # For MongoDB
+pydantic-settings  # For environment variables
+google-generativeai  # For Gemini
+requests  # For calling Government Mandi APIs
